@@ -4,9 +4,6 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/8/84/Indian_Premier_League_Official_Logo.svg" width="250">
 </p>
 
-<p align="center">
-  <b>Interactive Power BI Dashboard for IPL Match, Team & Player Performance Analysis</b>
-</p>
 
 ## 📝 Project Overview
 
