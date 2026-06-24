@@ -1,42 +1,190 @@
-📊 Project Name: IPL Cricket Performance & Match Analytics Dashboard
+# 📊 IPL Cricket Performance & Match Analytics Dashboard
 
-📝 Project Overview
-This project addresses the challenge of analyzing immense volumes of historical Indian Premier League (IPL) cricket statistics spanning multiple seasons. The goal was to build a comprehensive data-driven tool to decode match trends, player records, and operational dynamics. By developing this interactive dashboard, I provided a solution that allows cricket enthusiasts and analysts to track historical match counts, evaluate the tactical impact of toss decisions, view overall team win distributions, and monitor individual batting and bowling performance metrics.
+<p align="center">
+  <img src="images/ipl-logo.png" width="250">
+</p>
 
-🚀 Key Features & Insights
- * Season-by-Season Progression:Tracks the density of matches played annually from the inaugural 2007/08 season up to 2024.
- * Toss Strategy Impact:Analyzes whether teams favor batting or bowling first upon winning the toss and how it shapes the game.
- * Player Performance Profiles:Breaks down top run-scorers, high scores, and bowling economy rates to evaluate match-winners.
+## 📝 Project Overview
 
-1. Tournament History & Match Overview
+The IPL Cricket Performance & Match Analytics Dashboard was developed to transform large volumes of historical IPL match and ball-by-ball data into actionable insights. The project focuses on uncovering match trends, team performance patterns, player statistics, and strategic decisions across multiple IPL seasons.
 
-Visuals Breakdown:
-   * KPI Cards:Displays aggregated records including Total Runs in IPL (**616**), Total Matches index (**988096463**), Sum of High Scores (**5.29K**), Sum of Target Runs (**181K**), and the first season marker (**2007/...**).
-   * Pie Chart (Toss Decision Impact):Illustrates toss strategies, indicating a heavy preference for **Bowl** (**82.43%**) over **Bat** (**17.57%**).
-   * Bar Chart (Matches played by Season):Compares total matches handled year-over-year, highlighting peak activity in 2024.
-   * Area Chart (Toss Decision by Winner):Displays a volumetric trend line ranking how teams like Mumbai and Chennai make decisions.
-   * Stacked Horizontal Bar Chart (Top Venue):Highlights Player of the Match frequencies (e.g., Shreyas Iyer, Abhishek Sharma, Rohit Sharma) mapped against the sum of high scores.
-   * Donut Chart (Win by Team):Shows an balanced percentage distribution of match winners across major franchises like CSK, DC, GT, KKR, and MI.
-     
-2. Batting & Bowling Performance Analysis
+Using interactive visualizations and analytical KPIs, this dashboard enables cricket enthusiasts, analysts, and sports professionals to explore tournament history, evaluate team success factors, compare player performances, and understand the impact of toss decisions on match outcomes.
 
-   Visuals Breakdown:
-   * Combo Line & Area Chart (Batting Performance Trend):** Dual-axis visual tracking the relationship between the count of active seasons and the changing count of batsmen over time.
-   * Horizontal Bar Chart (Economy Rate):Benchmarks key bowlers (e.g., Suyash Sharma, Sunil Narine, Krunal Pandya) against the sum of balls left.
-   * Gauge Chart (Count of Batter):Gauges the absolute scope of the active database profile, hitting a benchmark of **260.92K**.
-   * Donut Chart (Batter by Batsman Runs):Segments running score volumes, emphasizing that a major bulk of records sit in the 103.94K,run margin tier.
-   * Geographical Map Visual (City and Date):Maps match timelines across worldwide tournament locations spanning regions like India, South America, and Africa.
-   * Team VS Team Matrix Table:A grid tracking cross-team matchups (e.g., Chennai Super Kings vs. Deccan Chargers, Delhi Capitals vs. Delhi Daredevils) to evaluate competitive patterns.
-     
-🛠️ Tech Stack Used
- * Tool:Power BI Desktop
- * Data Source:** IPL Historical Match Logs & Ball-by-Ball Records Dataset (Excel / CSV)
- * DAX Functions & Metrics:** Sum of High Scores, Count of Batter, Win Percentages, Toss Decision Split, and Economy Rate calculations.
+---
 
-📷 Dashboard Screenshots
+## 🚀 Key Features & Insights
 
-1. Tournament History & Match Overview
-<img src="Screenshot 2026-06-14 131153.png" width="100%">
+### 📈 Season-Wise Tournament Analysis
+- Track IPL match progression from the inaugural season to the latest edition.
+- Identify seasons with the highest number of matches.
+- Analyze tournament growth trends over time.
 
-2. Batting & Bowling Performance Analysis
-<img src="Screenshot 2026-06-14 131230.png" width="100%">
+### 🏏 Toss Strategy Impact
+- Examine whether teams prefer batting or bowling after winning the toss.
+- Understand how toss decisions influence match outcomes.
+- Compare toss strategies among different franchises.
+
+### 👑 Player Performance Evaluation
+- Analyze top run scorers and high-scoring innings.
+- Compare bowling economy rates across leading bowlers.
+- Identify standout performers and match-winning contributions.
+
+### 🏆 Team Performance Insights
+- Explore win distributions among IPL franchises.
+- Compare team success rates across seasons.
+- Study head-to-head team records and competitive trends.
+
+---
+
+# 📊 Dashboard 1: Tournament History & Match Overview
+
+### Visuals Included
+
+#### 🔹 KPI Cards
+Displays overall tournament statistics:
+- Total Runs Scored
+- Total Matches Played
+- Total High Scores
+- Total Target Runs
+- First IPL Season
+
+#### 🔹 Toss Decision Distribution
+Pie chart illustrating:
+- Bowling First Preference
+- Batting First Preference
+- Toss strategy percentages
+
+#### 🔹 Matches Played by Season
+Bar chart showing:
+- Year-wise match count
+- Seasonal growth trends
+- Peak tournament activity
+
+#### 🔹 Toss Decision by Winning Teams
+Area chart highlighting:
+- Team-wise toss strategies
+- Winning patterns based on toss decisions
+
+#### 🔹 Top Match Performers
+Horizontal bar chart displaying:
+- Player of the Match achievements
+- High-scoring contributions
+
+#### 🔹 Team Win Distribution
+Donut chart representing:
+- Franchise-wise match victories
+- Overall winning percentage share
+
+### 📷 Dashboard Screenshot
+
+![Tournament History Dashboard](Screenshot%202026-06-14%20131153.png)
+
+---
+
+# 📊 Dashboard 2: Batting & Bowling Performance Analysis
+
+### Visuals Included
+
+#### 🔹 Batting Performance Trends
+Combination line and area chart analyzing:
+- Active seasons
+- Batter participation trends
+- Performance progression over time
+
+#### 🔹 Bowling Economy Analysis
+Horizontal bar chart comparing:
+- Economy rates of leading bowlers
+- Bowling efficiency metrics
+
+#### 🔹 Batter Participation Gauge
+Gauge visualization displaying:
+- Total batter records available
+- Dataset coverage and scale
+
+#### 🔹 Run Distribution Analysis
+Donut chart illustrating:
+- Batsman run categories
+- Contribution distribution across players
+
+#### 🔹 Match Location Mapping
+Geographical map visualization showing:
+- Match locations
+- City-wise tournament distribution
+- Global hosting footprint
+
+#### 🔹 Team vs Team Matrix
+Interactive matrix providing:
+- Head-to-head team comparisons
+- Historical matchup records
+- Competitive performance insights
+
+### 📷 Dashboard Screenshot
+
+![Batting & Bowling Dashboard](Screenshot%202026-06-14%20131230.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Power BI Desktop**
+- **Power Query**
+- **DAX (Data Analysis Expressions)**
+- **Excel / CSV Dataset**
+- **Data Modeling & Relationships**
+
+### Key DAX Metrics
+- Total Runs
+- Total Matches
+- High Scores
+- Team Win Percentage
+- Toss Decision Split
+- Economy Rate
+- Batter Count
+
+---
+
+## 🎯 Business Value
+
+✅ Analyze IPL tournament growth and historical trends
+
+✅ Evaluate the impact of toss decisions on match outcomes
+
+✅ Compare team performances and winning percentages
+
+✅ Identify top-performing batsmen and bowlers
+
+✅ Explore venue-wise and city-wise match distributions
+
+✅ Study head-to-head franchise performance patterns
+
+---
+
+## 📂 Dataset
+
+The analysis was performed using historical IPL match and ball-by-ball datasets containing match results, player statistics, venue information, toss decisions, batting records, and bowling performance metrics.
+
+---
+
+## 📈 Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- Sports Analytics
+- KPI Development
+- Interactive Dashboard Design
+- Data Visualization
+- Business Intelligence Reporting
+
+---
+
+## 🔗 Project Link
+
+### GitHub Repository
+👉 [https://github.com/palaktonke06-a11y/IPL-Matches-Dashboard]
+
+
+
+---
+
+### ⭐ If you found this project useful, don't forget to star the repository.
